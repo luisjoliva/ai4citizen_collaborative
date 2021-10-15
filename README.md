@@ -1,4 +1,4 @@
-# ai4citizens_collaborative
+# ai4citizen_collaborative
 
 The system requires using the Team Formation docker container. It can be found in this URL: https://www.ai4eu.eu/resource/edu2comapi along a document explaining how to install it, turn it on and consume it.
 Download the files, decompress it and follow the instructions of that document.
