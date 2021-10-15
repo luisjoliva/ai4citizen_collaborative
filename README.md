@@ -1,7 +1,7 @@
 # ai4citizen_collaborative
 
-The system requires using the Team Formation docker container. It can be found in this URL: https://www.ai4eu.eu/resource/edu2comapi along a document explaining how to install it, turn it on and consume it.
-Download the files, decompress it and follow the instructions of that document.
+The system requires using the Team Formation docker container. It can be found on this URL: https://www.ai4eu.eu/resource/edu2comapi along a document explaining how to install it, turn it on and consume it.
+Download the files, decompress them and follow the instructions of the abovementioned document.
 Using this command, you can turn on the container:
 
 docker run -p 5000:5000 --name teamformation teamformation:latest
@@ -18,7 +18,7 @@ You can now execute the code for interactions. It is divided in three main files
 -	Main.py
 -	Interaction.py
 -	Test/test_interaction.py
-There is also a /resources folder which contains test data as well as a /full subfolder, which contains a more realistic/real data, with a lot more information.
+There is also a /resources folder which contains test data as well as a /full subfolder, which contains a more realistic/real data, with a higher amount of data.
 
 The main file contains functions that consume the different API endpoints, using test data (contained in /resources folder). The test data was provided by teamformation developers:
 	
@@ -29,7 +29,7 @@ The main file contains functions that consume the different API endpoints, using
 
 There are also some auxiliary functions, to build the URL to consume the endpoints, store the results or generate requests.
  
-The interaction file contains, right now, the most basic kind of interaction: people who have accepted the assignment. For the time being that means that only if all the people assigned to a project accept it, we can consider it as solved. If at least one has not accepted it, we do not consider it as solved. If solved, we remove that project from the state of the world and we should then repeat the algorithm with the remaining not solved assignments and removing the assigned students.
+The interaction file contains, right now, the most basic kind of interaction: people who have accepted the assignment. For the time being that means that only if all the people assigned to a project accept it, we can consider it as solved. If at least one has not accepted it, we do not consider it as solved. If solved, we remove that project from the state of the world and we should then repeat the algorithm with the remaining non-solved assignments as well as removing the assigned students.
 
 Finally, the /test/test_interaction file contains a test which tries to simulate interaction cycles, that is, we have an initial state of the world with assignments, we receive some feedback, process the interactions and repeat the execution of the teamformation algorithm to simulate another round, and return the new state of the world, with (maybe) a different assignment obtained from the non-assigned students and remaining projects. Ideally, we should use the Mock library to avoid having to use the Docker container and decoupling both systems (Docker and the code for interactions).
 
