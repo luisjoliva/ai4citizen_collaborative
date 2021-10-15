@@ -1,0 +1,11 @@
+{"Students": {"Ludovica": { "competences": {
+"http://data.europa.eu/esco/skill/33051fa7-bc25-4a75-80ae-c3b7cf5c744d":[1,1], "http://data.europa.eu/esco/skill/f441f55b-7ba0-4c5b-9ac2-1335a4d68813":[1,1], "http://data.europa.eu/esco/skill/473a8b64-a05c-4d49-962d-b9d9219950bc":[1,1], "http://data.europa.eu/esco/skill/098498a8-d57f-4ddd-b5bf-16e46475e768":[1,1] }, "max work load": null, "name": "Ludovica", "school":
+"ISTITUTO TECNICO ECONOMICO E TECNOLOGICO 'F.e G.Fontana' - ROVERETO" },
+"Marco": { "competences": { "http://data.europa.eu/esco/skill/33051fa7-bc25-4a75-80ae-c3b7cf5c744d":[1,1],
+ "http://data.europa.eu/esco/skill/f441f55b-7ba0-4c5b-9ac2-1335a4d68813":[1,1], "http://data.europa.eu/esco/skill/db77825e-0f3e-47d0-abdb-356794484272":[1,1],
+ "http://data.europa.eu/esco/skill/da629999-d226-4ff3-9e1a-01788132664f":[1,1], "http://data.europa.eu/esco/skill/4211283b-617e-4ded-8636-4eed896c33b0":[1,1],
+ "http://data.europa.eu/esco/skill/ee6630cd-f44d-4968-aa48-c179703fa012":[1,1],
+ "http://data.europa.eu/esco/skill/94bc9278-dc2b-41e5-b337-5bda2c020818":[1,1] },
+ "max work load": null, "name": "Marco", "school":
+"ISTITUTO TECNICO ECONOMICO E TECNOLOGICO 'F.e G.Fontana' - ROVERETO" }
+} }

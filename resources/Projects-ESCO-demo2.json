@@ -1,0 +1,39 @@
+{"Projects":
+{
+	"Barilla":{
+		"competences":{
+			"http://data.europa.eu/esco/skill/473a8b64-a05c-4d49-962d-b9d9219950bc":[1,1],
+			"http://data.europa.eu/esco/skill/d1a2437d-7eee-4c13-9104-0bb3dd7b45d6":[1,1],
+			"http://data.europa.eu/esco/skill/d94d9eaa-073f-40bc-b111-5f6278e7d742":[1,1],
+			"http://data.europa.eu/esco/skill/748b5c82-bf2f-4a76-af21-9ef24667e6c8":[1,1],
+			"http://data.europa.eu/esco/skill/ee6630cd-f44d-4968-aa48-c179703fa012":[1,1],
+			"http://data.europa.eu/esco/skill/4211283b-617e-4ded-8636-4eed896c33b0":[1,1]
+		},
+		"teamsize":2
+	},
+	"Nutella":{
+		"competences":{
+			"http://data.europa.eu/esco/skill/db77825e-0f3e-47d0-abdb-356794484272":[1,1],
+			"http://data.europa.eu/esco/skill/da629999-d226-4ff3-9e1a-01788132664f":[1,1],
+			"http://data.europa.eu/esco/skill/0ab03c6c-281b-48f4-83e0-10eeb27a1bae":[1,1],
+			"http://data.europa.eu/esco/skill/9d74924b-bb58-4998-9112-19da9238687b":[1,1],
+			"http://data.europa.eu/esco/skill/4211283b-617e-4ded-8636-4eed896c33b0":[1,1],
+			"http://data.europa.eu/esco/skill/ee6630cd-f44d-4968-aa48-c179703fa012":[1,1],
+			"http://data.europa.eu/esco/skill/fe29e658-7cad-4b70-a169-10a240ec0bef":[1,1],
+			"http://data.europa.eu/esco/skill/94bc9278-dc2b-41e5-b337-5bda2c020818":[1,1]
+		},
+		"teamsize":2
+	},
+	"Buitoni":{
+		"competences":{
+			"http://data.europa.eu/esco/skill/473a8b64-a05c-4d49-962d-b9d9219950bc":[1,1],
+			"http://data.europa.eu/esco/skill/473a8b64-a05c-4d49-962d-b9d9219950bc":[1,1],
+			"http://data.europa.eu/esco/skill/d1a2437d-7eee-4c13-9104-0bb3dd7b45d6":[1,1],
+			"http://data.europa.eu/esco/skill/d94d9eaa-073f-40bc-b111-5f6278e7d742":[1,1],
+			"http://data.europa.eu/esco/skill/748b5c82-bf2f-4a76-af21-9ef24667e6c8":[1,1],
+			"http://data.europa.eu/esco/skill/ee6630cd-f44d-4968-aa48-c179703fa012":[1,1],
+			"http://data.europa.eu/esco/skill/4211283b-617e-4ded-8636-4eed896c33b0":[1,1]
+		},
+		"teamsize":2
+	}
+}}
